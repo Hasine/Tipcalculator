@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fooiomrekener</string>
+    <string name="action_settings">instellingen</string>
+    <string name="button_1_text">Bereken fooi!</string>
+    <string name="price">Geef de prijs op</string>
+    <string name="lost_question">Hoeveel ben je lichter?</string>
+    <string name="enjoy_question">Heeft het allemaal gesmaakt?</string>
+    <string name="yes_button">Ja!:)  </string>
+    <string name="no_button">Nee :(  </string>
+    <string name="naah_button">Naah, een beetje  </string>
+    <string name="fiteenper">15 % </string>
+    <string name="twentyper">20 % </string>
+    <string name="finalamount">"De fooi is: € "</string>
+</resources>

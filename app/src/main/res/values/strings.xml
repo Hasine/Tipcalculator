@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tipcalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_1_text">Calculate tip!</string>
+    <string name="price">Enter the price please</string>
+    <string name="lost_question">What\'s your lost?</string>
+    <string name="enjoy_question">Did you enjoy your meal?</string>
+    <string name="yes_button">Yes!:) </string>
+    <string name="no_button">No :(  </string>
+    <string name="naah_button">Naah, a bit  </string>
+    <string name="fiteenper">15 % </string>
+    <string name="twentyper">20 % </string>
+    <string name="finalamount">"The amount of tip is: $ "</string>
+</resources>
