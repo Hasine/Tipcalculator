@@ -7,28 +7,42 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:label="@string/app_name"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/activity_main"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:weightSum="1">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/enjoy_question"
-        android:textSize="30sp"
-        android:textColor="#000"
-        android:id="@+id/textView" />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="93dp"
+            android:layout_height="61dp"
+            android:src="@drawable/eten"
+            android:id="@+id/image"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enjoy_question"
+            android:layout_below="@+id/image"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20sp"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:id="@+id/textView" />
+    </RelativeLayout>
 
     <RadioGroup
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="30sp"
         android:id="@+id/radioGroup"
         android:background="#93F">
         <RadioButton
@@ -62,7 +76,7 @@
         android:textSize="24sp"
         android:textColor="#00F"
         android:id="@+id/textView1"
-        android:layout_marginTop="42dp" />
+        android:layout_marginTop="30sp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -71,15 +85,15 @@
         android:hint="@string/price"
         android:ems="10"
         android:id="@+id/price"
-        android:layout_marginTop="38dp"/>
+        android:layout_marginTop="30sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_1_text"
         android:id="@+id/calculateButton"
-        android:layout_marginTop="52dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
         android:onClick="calculate"/>
 
     <TextView
@@ -88,7 +102,7 @@
         android:text="@string/finalamount"
         android:textStyle="bold"
         android:textColor="#00F"
-        android:textSize="50sp"
+        android:textSize="30sp"
         android:id="@+id/finalText"
         android:visibility="invisible"/>
 
